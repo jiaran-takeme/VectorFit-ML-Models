@@ -115,10 +115,8 @@ plot_results(evaluator, best_pos, history)
 
 ## 联系方式
 如有问题或建议，请联系项目维护者。
-
-邮箱：1668640479@qq.com
-
-B 站：祉佲
+- 邮箱：1668640479@qq.com
+- B 站：祉佲
 
 
 
