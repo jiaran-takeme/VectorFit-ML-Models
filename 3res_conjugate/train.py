@@ -32,7 +32,7 @@ set_chinese_font()
 # -------------------------- 2. 数据加载与预处理（取消偏移，直接标准化） --------------------------
 # 读取Excel数据（True工作表，共轭留数场景）
 try:
-    excel_file = pd.ExcelFile('../S21批量拟合汇总结果(含直流项和比例项).xlsx')
+    excel_file = pd.ExcelFile('../Data/S21批量拟合汇总结果(含直流项和比例项).xlsx')
     df = excel_file.parse('True')  # 读取共轭留数的True工作表
     print(f"成功读取True表数据：共{len(df)}条样本，{len(df.columns)}列特征")
 except FileNotFoundError:

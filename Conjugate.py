@@ -15,7 +15,7 @@ torch.manual_seed(42)
 np.random.seed(42)
 
 # 读取数据（请替换为你的文件路径）
-excel_file = pd.ExcelFile('S21批量拟合汇总结果(含直流项和比例项).xlsx')
+excel_file = pd.ExcelFile('Data/S21批量拟合汇总结果(含直流项和比例项).xlsx')
 df = excel_file.parse('All')
 
 # 查看Conjugate?列的分布

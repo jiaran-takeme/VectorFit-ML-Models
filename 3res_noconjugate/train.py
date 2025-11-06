@@ -32,7 +32,7 @@ set_chinese_font()
 # -------------------------- 2. 数据加载与预处理（已移除数据清洗） --------------------------
 # 读取Excel数据（需确保文件路径正确）
 try:
-    excel_file = pd.ExcelFile('../S21批量拟合汇总结果(含直流项和比例项)old.xlsx')
+    excel_file = pd.ExcelFile('../Data/S21批量拟合汇总结果(含直流项和比例项)old.xlsx')
     df = excel_file.parse('False')  # 读取非共轭极点的False工作表
     print(f"成功读取原始数据：共{len(df)}条样本，{len(df.columns)}列特征")
     # 校验必要列是否存在

@@ -3,6 +3,7 @@
 *.xls
 *.txt
 *.csv
+Data/
  # 你的Excel输出目录
 
 # 训练模型相关
