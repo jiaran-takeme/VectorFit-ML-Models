@@ -3,9 +3,7 @@
 *.xls
 *.txt
 *.csv
-data/
-dataset/
-reim_excel/  # 你的Excel输出目录
+ # 你的Excel输出目录
 
 # 训练模型相关
 *.pth
@@ -13,8 +11,7 @@ reim_excel/  # 你的Excel输出目录
 *.npy
 *.pkl
 *.ckpt
-3res_conjugate/  # 你的共轭留数模型目录
-3res_noconjugate/  # 你的非共轭留数模型目录
+ # 你的非共轭留数模型目录
 
 # Python缓存文件
 __pycache__/
