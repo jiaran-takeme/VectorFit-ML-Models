@@ -6,7 +6,7 @@ from 三极点预测 import PoleResiduePredictor  # 导入三极点预测模型
 
 # ---------------------- 配置与初始化 ----------------------
 # 20Gbps NRZ信号参数（Nyquist频率为10GHz）
-NYQUIST_FREQ = 15  # GHz
+NYQUIST_FREQ = 10  # GHz
 EVAL_START = 1  # GHz（评估起始频率）
 EVAL_END = NYQUIST_FREQ * 1.33  # 13.3GHz（评估终止频率）
 
@@ -39,7 +39,7 @@ class S21Evaluator:
         self.Omega_full = 2 * np.pi * 1j * self.frequency_full  # 复频率（s域）
 
         # 2. 加载5dB信道曲线（明确列名，Hz转GHz）
-        self.channel_freq, self.channel_s21_dB = self._load_channel_data("10dB.csv")
+        self.channel_freq, self.channel_s21_dB = self._load_channel_data("5dB.csv")
 
         # 3. 定义评估频段掩码（1~13.3GHz）
         self.eval_mask = (self.frequency_full >= EVAL_START) & (self.frequency_full <= EVAL_END)
