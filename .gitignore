@@ -1,0 +1,32 @@
+# 数据集相关
+*.xlsx
+*.xls
+*.txt
+*.csv
+data/
+dataset/
+reim_excel/  # 你的Excel输出目录
+
+# 训练模型相关
+*.pth
+*.pt
+*.npy
+*.pkl
+*.ckpt
+3res_conjugate/  # 你的共轭留数模型目录
+3res_noconjugate/  # 你的非共轭留数模型目录
+
+# Python缓存文件
+__pycache__/
+*.py[cod]
+*$py.class
+.env
+.venv
+venv/
+env/
+
+# 可视化/日志文件
+*.png
+*.jpg
+*.log
+*.mat
