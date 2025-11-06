@@ -111,7 +111,7 @@ plot_results(evaluator, best_pos, history)
    - 非共轭场景：9输入（3器件+3极点+3交叉特征）→3输出，使用LeakyReLU激活
 
 ## 许可证
-本项目采用MIT许可证（具体请参见LICENSE文件）
+具体请参见LICENSE文件
 
 ## 联系方式
 如有问题或建议，请联系项目维护者。
